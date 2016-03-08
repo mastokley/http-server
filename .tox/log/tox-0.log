@@ -1,0 +1,45 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/michael/401/http-server/bin/python', local('/home/michael/401/http-server/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/michael/401/http-server/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing requirements to src/http_server.egg-info/requires.txt
+writing src/http_server.egg-info/PKG-INFO
+writing top-level names to src/http_server.egg-info/top_level.txt
+writing dependency_links to src/http_server.egg-info/dependency_links.txt
+reading manifest file 'src/http_server.egg-info/SOURCES.txt'
+writing manifest file 'src/http_server.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating http_server-0.1
+creating http_server-0.1/src
+creating http_server-0.1/src/http_server.egg-info
+making hard links in http_server-0.1...
+hard linking setup.py -> http_server-0.1
+hard linking src/client.py -> http_server-0.1/src
+hard linking src/server.py -> http_server-0.1/src
+hard linking src/http_server.egg-info/PKG-INFO -> http_server-0.1/src/http_server.egg-info
+hard linking src/http_server.egg-info/SOURCES.txt -> http_server-0.1/src/http_server.egg-info
+hard linking src/http_server.egg-info/dependency_links.txt -> http_server-0.1/src/http_server.egg-info
+hard linking src/http_server.egg-info/requires.txt -> http_server-0.1/src/http_server.egg-info
+hard linking src/http_server.egg-info/top_level.txt -> http_server-0.1/src/http_server.egg-info
+Writing http_server-0.1/setup.cfg
+creating '.tox/dist/http_server-0.1.zip' and adding 'http_server-0.1' to it
+adding 'http_server-0.1/setup.py'
+adding 'http_server-0.1/setup.cfg'
+adding 'http_server-0.1/PKG-INFO'
+adding 'http_server-0.1/src/client.py'
+adding 'http_server-0.1/src/server.py'
+adding 'http_server-0.1/src/http_server.egg-info/SOURCES.txt'
+adding 'http_server-0.1/src/http_server.egg-info/dependency_links.txt'
+adding 'http_server-0.1/src/http_server.egg-info/requires.txt'
+adding 'http_server-0.1/src/http_server.egg-info/top_level.txt'
+adding 'http_server-0.1/src/http_server.egg-info/PKG-INFO'
+removing 'http_server-0.1' (and everything under it)

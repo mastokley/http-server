@@ -1,0 +1,13 @@
+{
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_compatibility_tags": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_convert_egg": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_egg_re": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_findable": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_no_scripts": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_pick_best": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_pydist": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_unpack": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_basic.py::test_util": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_ranking.py::TestRanking::test_comparison": true,
+  "local/lib/python2.7/site-packages/wheel/test/test_tool.py::test_keygen": true
+}
